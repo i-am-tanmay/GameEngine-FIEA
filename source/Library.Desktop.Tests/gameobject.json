@@ -1,0 +1,179 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "root_scene"
+  },
+
+  "Children": {
+    "type": "scope",
+    "value": [
+      {
+        "class": "GOFoo",
+
+        "Name": {
+          "type": "string",
+          "value": "c1_0"
+        },
+
+        "Transform": {
+          "Position": {
+            "type": "vec4",
+            "value": "vec4(31.0,35.0,37.0,34.0)"
+          }
+        },
+
+        "Children": {
+          "type": "scope",
+          "value": [
+            {
+              "class": "GameObject",
+
+              "Name": {
+                "type": "string",
+                "value": "c1_1"
+              },
+
+              "Transform": {
+                "Rotation": {
+                  "type": "vec4",
+                  "value": "vec4(51.0,55.0,57.0,54.0)"
+                }
+              }
+            }
+          ]
+        }
+
+      },
+
+      {
+        "class": "GameObject",
+
+        "Name": {
+          "type": "string",
+          "value": "c2_0"
+        },
+
+        "Transform": {
+          "Scale": {
+            "type": "vec4",
+            "value": "vec4(41.0,45.0,47.0,44.0)"
+          }
+        },
+
+        "Children": {
+          "type": "scope",
+          "value": [
+            {
+              "class": "GameObject",
+
+              "Name": {
+                "type": "string",
+                "value": "c2_1"
+              },
+
+              "Transform": {
+                "Rotation": {
+                  "type": "vec4",
+                  "value": "vec4(61.0,65.0,67.0,64.0)"
+                }
+              }
+            },
+
+            {
+              "class": "GOFoo",
+
+              "Name": {
+                "type": "string",
+                "value": "c2_2"
+              },
+
+              "Transform": {
+                "Position": {
+                  "type": "vec4",
+                  "value": "vec4(71.0,75.0,77.0,74.0)"
+                }
+              },
+
+              "Children": {
+                "type": "scope",
+                "value": [
+                  {
+                    "class": "GOFoo",
+
+                    "Name": {
+                      "type": "string",
+                      "value": "c2_2_0"
+                    },
+
+                    "Transform": {
+                      "Scale": {
+                        "type": "vec4",
+                        "value": "vec4(71.0,75.0,77.0,74.0)"
+                      }
+                    }
+                  }
+                ]
+              },
+
+              "NOTCHILDREN": {
+                "type": "scope",
+                "value": [
+                  {
+                    "class": "scope",
+
+                    "Name": {
+                      "type": "string",
+                      "value": "nc2_2_0"
+                    }
+                  },
+
+                  {
+                    "class": "GOFoo",
+
+                    "Name": {
+                      "type": "string",
+                      "value": "nc2_2_1"
+                    }
+                  },
+
+                  {
+                    "class": "GameObject",
+
+                    "Name": {
+                      "type": "string",
+                      "value": "nc2_2_2"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "Transform": {
+
+    "Position": {
+      "type": "vec4",
+      "value": "vec4(1.0,5.0,7.0,4.0)"
+    },
+
+    "Rotation": {
+      "type": "vec4",
+      "value": "vec4(11.0,15.0,17.0,14.0)"
+    },
+
+    "Scale": {
+      "type": "vec4",
+      "value": "vec4(21.0,25.0,27.0,24.0)"
+    }
+
+  },
+
+  "LuckySeven": {
+    "type": "float",
+    "value": 7.0
+  }
+}

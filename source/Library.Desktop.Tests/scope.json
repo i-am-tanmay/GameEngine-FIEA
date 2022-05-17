@@ -1,0 +1,400 @@
+[
+  {
+    "AHealth": {
+      "type": "integer",
+      "value": [ 100, 2, 90 ]
+    },
+
+    "BTransform": {
+      "type": "vec4",
+      "value": "vec4(1.0, 23.4, 98.1, 0.0)"
+    },
+
+    "CWeapon": {
+      "type": "scope",
+      "value": {
+
+        "class": "AttributedFoo",
+
+        "ASelectedWeapon": {
+          "type": "integer",
+          "value": 3
+        },
+
+        "ExternalIntegerArray": {
+          "type": "integer",
+          "value": [ 90, 20, 110, 190, 200 ]
+        },
+
+        "BMelee": {
+          "type": "scope",
+          "value": {
+
+            "class": "scope",
+
+            "ASword": {
+              "type": "scope",
+              "value": {
+
+                "class": "scope",
+
+                "AKatana": {
+                  "type": "scope",
+                  "value": {
+
+                    "class": "scope",
+
+                    "Aid": {
+                      "type": "integer",
+                      "value": 1
+                    },
+                    "Damage": {
+                      "type": "float",
+                      "value": 100.59
+                    }
+
+                  }
+
+                },
+
+                "BRapier": {
+                  "type": "scope",
+                  "value": [
+                    {
+
+                      "class": "scope",
+
+                      "Aid": {
+                        "type": "integer",
+                        "value": 2
+                      },
+                      "Damage": {
+                        "type": "float",
+                        "value": [ 70.59, 189.90, 228.9 ]
+                      }
+
+                    }
+                  ]
+                }
+
+              }
+
+            },
+
+            "BSpear": {
+              "type": "scope",
+              "value": {
+
+                "class": "scope",
+
+                "AJavelin": {
+                  "type": "scope",
+                  "value": {
+
+                    "class": "scope",
+
+                    "Aid": {
+                      "type": "integer",
+                      "value": 3
+                    },
+                    "Damage": {
+                      "type": "float",
+                      "value": 270.06
+                    }
+
+                  }
+                }
+
+              }
+            }
+
+          }
+        },
+
+        "BRanged": {
+          "type": "scope",
+          "value": {
+
+            "class": "scope",
+
+            "ABowArrow": {
+              "type": "scope",
+              "value": {
+
+                "class": "scope",
+
+                "Aid": {
+                  "type": "integer",
+                  "value": 4
+                },
+                "Damage": {
+                  "type": "float",
+                  "value": 40.1
+                }
+
+              }
+
+            },
+
+            "AShotgun": {
+
+              "type": "scope",
+              "value": [
+                {
+
+                  "class": "scope",
+
+                  "Aid": {
+                    "type": "integer",
+                    "value": [ 5, 6, 9 ]
+                  },
+                  "Damage": {
+                    "type": "float",
+                    "value": [ 700.59, 198.11, 22.0 ]
+                  },
+                  "EMPTY": {
+                    "type": "mat4x4",
+                    "value": []
+                  }
+
+                },
+                {
+
+                  "class": "scope",
+
+                  "Aid": {
+                    "type": "integer",
+                    "value": [ 4, 1, 7 ]
+                  },
+                  "Damage": {
+                    "type": "float",
+                    "value": 1.59
+                  },
+                  "EMPTY": {
+                    "type": "string",
+                    "value": []
+                  }
+
+                }
+              ]
+            }
+
+          }
+        },
+
+        "EMPTY": {
+          "type": "scope",
+          "value": []
+        }
+
+      }
+    },
+
+    "Damage": {
+      "type": "float",
+      "value": [ 13.75, 0.02 ]
+    },
+
+    "EMPTY": {
+      "type": "scope",
+      "value": []
+    }
+  },
+
+  {
+    "AHealthAGAIN": {
+      "type": "integer",
+      "value": [ 20, 87 ]
+    },
+
+    "BTransform": {
+      "type": "vec4",
+      "value": "vec4(1.0, 23.4, 98.1, 0.0)"
+    },
+
+    "CWeaponTWO": {
+      "type": "scope",
+      "value": {
+
+        "class": "scope",
+
+        "ASelectedWeapon": {
+          "type": "integer",
+          "value": 3
+        },
+
+        "BMelee": {
+          "type": "scope",
+          "value": {
+
+            "class": "scope",
+
+            "ASword": {
+              "type": "scope",
+              "value": {
+
+                "class": "scope",
+
+                "AKatana": {
+                  "type": "scope",
+                  "value": {
+
+                    "class": "scope",
+
+                    "Aid": {
+                      "type": "integer",
+                      "value": 1
+                    },
+                    "Damage": {
+                      "type": "float",
+                      "value": 100.59
+                    }
+
+                  }
+
+                },
+
+                "BRapier": {
+                  "type": "scope",
+                  "value": [
+                    {
+
+                      "class": "scope",
+
+                      "Aid": {
+                        "type": "integer",
+                        "value": 2
+                      },
+                      "Damage": {
+                        "type": "float",
+                        "value": [ 70.59, 189.90, 228.9 ]
+                      }
+
+                    }
+                  ]
+                }
+
+              }
+
+            },
+
+            "BSpear": {
+              "type": "scope",
+              "value": {
+
+                "class": "scope",
+
+                "AJavelin": {
+                  "type": "scope",
+                  "value": {
+
+                    "class": "scope",
+
+                    "AidA": {
+                      "type": "integer",
+                      "value": 3
+                    },
+                    "Damage": {
+                      "type": "float",
+                      "value": [ 2.8, 90.2 ]
+                    }
+
+                  }
+                }
+
+              }
+            }
+
+          }
+        },
+
+        "BRanged": {
+          "type": "scope",
+          "value": {
+
+            "class": "scope",
+
+            "ABowArrow": {
+              "type": "scope",
+              "value": {
+
+                "class": "scope",
+
+                "Aid": {
+                  "type": "integer",
+                  "value": 4
+                },
+                "Damage": {
+                  "type": "float",
+                  "value": 40.1
+                }
+
+              }
+
+            },
+
+            "AShotgun": {
+
+              "type": "scope",
+              "value": [
+                {
+
+                  "class": "scope",
+
+                  "Aid": {
+                    "type": "integer",
+                    "value": [ 5, 6, 9 ]
+                  },
+                  "Damage": {
+                    "type": "float",
+                    "value": [ 700.59, 198.11, 22.0 ]
+                  },
+                  "EMPTY": {
+                    "type": "mat4x4",
+                    "value": []
+                  }
+
+                },
+                {
+
+                  "class": "scope",
+
+                  "Aid": {
+                    "type": "integer",
+                    "value": [ 4, 1, 7 ]
+                  },
+                  "Damage": {
+                    "type": "float",
+                    "value": 1.59
+                  },
+                  "EMPTY": {
+                    "type": "string",
+                    "value": []
+                  }
+
+                }
+              ]
+            }
+
+          }
+        },
+
+        "EMPTY": {
+          "type": "scope",
+          "value": []
+        }
+
+      }
+    },
+
+    "Damage": {
+      "type": "float",
+      "value": [ 13.75, 0.02 ]
+    },
+
+    "EMPTY": {
+      "type": "scope",
+      "value": []
+    }
+  }
+]

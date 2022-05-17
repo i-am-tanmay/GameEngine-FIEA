@@ -1,0 +1,6 @@
+{
+  "integer": 100,
+  "zchild": {
+    "integer": [ 77, 78, 80 ]
+  }
+}

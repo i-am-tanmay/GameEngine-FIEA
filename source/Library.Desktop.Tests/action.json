@@ -1,0 +1,137 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "ROOT"
+  },
+
+  "Children": {
+    "type": "scope",
+    "value": [
+      {
+        "class": "GameObject",
+
+        "Name": {
+          "type": "string",
+          "value": "Child1"
+        }
+      }
+    ]
+  },
+
+  "Actions": {
+    "type": "scope",
+    "value": [
+      {
+        "class": "ActionList_IF",
+
+        "Name": {
+          "type": "string",
+          "value": "IFCHECK_1"
+        },
+
+        "condition": {
+          "type": "integer",
+          "value": 0
+        },
+
+        "Actions": {
+          "type": "scope",
+          "value": [
+            {
+              "class": "Action_CreateAction",
+
+              "Name": {
+                "type": "string",
+                "value": "CONDITION 0"
+              },
+
+              "actionclass": {
+                "type": "string",
+                "value": "ActionList"
+              },
+
+              "CreateName": {
+                "type": "string",
+                "value": "CREATE 1"
+              },
+
+              "CreateContext": {
+                "type": "string",
+                "value": "ROOT"
+              }
+            },
+            {
+              "class": "Action_DestroyAction",
+
+              "Name": {
+                "type": "string",
+                "value": "CONDITION 1"
+              },
+
+              "DestroyAction": {
+                "type": "string",
+                "value": "IFCHECK_2"
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "class": "ActionList_IF",
+
+        "Name": {
+          "type": "string",
+          "value": "IFCHECK_2"
+        },
+
+        "condition": {
+          "type": "integer",
+          "value": 0
+        },
+
+        "Actions": {
+          "type": "scope",
+          "value": [
+            {
+              "class": "Action_CreateAction",
+
+              "Name": {
+                "type": "string",
+                "value": "CONDITION 0"
+              },
+
+              "actionclass": {
+                "type": "string",
+                "value": "ActionList"
+              },
+
+              "CreateName": {
+                "type": "string",
+                "value": "CREATE 2"
+              },
+
+              "CreateContext": {
+                "type": "string",
+                "value": "Child1"
+              }
+            },
+            {
+              "class": "Action_DestroyAction",
+
+              "Name": {
+                "type": "string",
+                "value": "CONDITION 1"
+              },
+
+              "DestroyAction": {
+                "type": "string",
+                "value": "IFCHECK_1"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

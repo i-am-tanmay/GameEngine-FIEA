@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SListTests.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Foo.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTests.cpp" />
+    <ClCompile Include="VectorTests.cpp" />
+    <ClCompile Include="HashMapTests.cpp" />
+    <ClCompile Include="DatumTests.cpp" />
+    <ClCompile Include="ScopeTests.cpp" />
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModuleInitialize.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedTests.cpp" />
+    <ClCompile Include="AbsolutePerfectionAttributedFoo.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParserInteger.cpp">
+      <Filter>JsonParsers</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParseTests.cpp" />
+    <ClCompile Include="JsonParserString.cpp">
+      <Filter>JsonParsers</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParserVec.cpp">
+      <Filter>JsonParsers</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp" />
+    <ClCompile Include="GOFoo.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTests.cpp" />
+    <ClCompile Include="ActionTests.cpp" />
+    <ClCompile Include="EventTests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ToStringSpecializations.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsolutePerfectionAttributedFoo.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonParserInteger.h">
+      <Filter>JsonParsers</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonParserString.h">
+      <Filter>JsonParsers</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonParserVec.h">
+      <Filter>JsonParsers</Filter>
+    </ClInclude>
+    <ClInclude Include="GOFoo.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Support Classes">
+      <UniqueIdentifier>{45276c5b-a0e0-4f77-803b-78dbe6b1364e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonParsers">
+      <UniqueIdentifier>{eeb87f82-8e10-4dee-8d8d-55b5eeeae68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support JSON">
+      <UniqueIdentifier>{2fcbc567-3176-4884-b731-1ef5bbb9ab43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="integer.json">
+      <Filter>Support JSON</Filter>
+    </None>
+    <None Include="scope.json">
+      <Filter>Support JSON</Filter>
+    </None>
+    <None Include="gameobject.json">
+      <Filter>Support JSON</Filter>
+    </None>
+    <None Include="action.json">
+      <Filter>Support JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>
